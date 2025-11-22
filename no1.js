@@ -1,3 +1,4 @@
+//simple javascrpt functions
 function checkPassword() {
     let password = prompt("Please enter your password:");
     if (password === "NewKenya") {
@@ -6,3 +7,4 @@ function checkPassword() {
         document.getElementById("result").innerText = "INVALID PASSWORD";
     }
 }
+
